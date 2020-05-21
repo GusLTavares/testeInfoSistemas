@@ -3,8 +3,10 @@ const app = express();
 const morgan = require('morgan');
 const bodyParser = require('body-parser')
 const rotaVeiculos = require('./routes/veiculos');
+const cors = require('cors');
 
 
+app.use(cors());
 app.use(morgan('dev'));
 //only single data
 app.use(bodyParser.urlencoded({extended:false}));
