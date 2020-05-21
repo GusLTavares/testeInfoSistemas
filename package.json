@@ -1,0 +1,26 @@
+{
+  "name": "info-sis",
+  "version": "1.0.0",
+  "description": "Teste para vaga de desenvolvedor",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Gustavo Luiz Tavares",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.1.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
